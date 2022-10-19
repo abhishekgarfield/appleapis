@@ -1,11 +1,12 @@
 var express = require("express");
 var app = express();
 app.use(express.json());
+require("dotenv").config();
 
 var cors = require("cors");
 const { Collection } = require("mongodb");
 app.use(cors());
-const port = 9000;
+const port = process.env.PORT || 9000;
 const uri =
   "mongodb+srv://garfield:1234@cluster0.anf24op.mongodb.net/?retryWrites=true&w=majority";
 
