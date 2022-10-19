@@ -98,15 +98,14 @@ app.get("/filter", async (req, res) => {
   }
 });
 
-app.get("product/:product_id", async (req, res) => {
+app.get("/product/:product_id", async (req, res) => {
   console.log("product page");
-  console.log("in find");
   const { product_id } = req.params;
   console.log(product_id);
   const collection = db.collection("products");
 
   try {
-    const product = collection.findOne({ Product_id: product_id });
+    const product = await collection.findOne({ Product_id: { $eq : Number(product_id)} });
     return res.send(product);
   } catch (err) {
     console.log(err);
