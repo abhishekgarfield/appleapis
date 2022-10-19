@@ -5,7 +5,7 @@
 
  ### Getting user
   
- ==> https://applegarfield.herokuapp.com/getuser/?user_id=${}
+ ==> https://applegarfield.herokuapp.com/getuser/?user_id=${}  //{1}
 
 
 
@@ -17,7 +17,7 @@
 
  ### Only macboob air
 
- ==>  https://applegarfield.herokuapp.com/?category_id=${}
+ ==>  https://applegarfield.herokuapp.com/?category_id=${} //{1}
 
  ### Only macboob pro
 
@@ -38,8 +38,6 @@
  ### filter with price
 
  ==>  https://applegarfield.herokuapp.com/filter/?lcost=${}&hcost=${}
- 
- https://i.imgur.com/2FdmxyT.jpg
 
  ### filter with color
 
