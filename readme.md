@@ -15,7 +15,7 @@
 
  ==> https://applegarfield.herokuapp.com/
 
- ### Only macboob air
+ ### Only macbook air
 
  ==>  https://applegarfield.herokuapp.com/?category_id=${} //{1}
 
