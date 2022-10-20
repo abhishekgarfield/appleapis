@@ -17,7 +17,7 @@
 
  ### Only macbook air
 
- ==>  https://applegarfield.herokuapp.com/?category_id=${} //{1}
+ ==>  https://applegarfield.herokuapp.com/?category_id=${} //{3}
 
  ### Only macboob pro
 
